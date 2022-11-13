@@ -1,3 +1,24 @@
 body {
-  background: burlywood;
+  background: #e0ceb8;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.croissant-photo {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 20px auto;
 }
